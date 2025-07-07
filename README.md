@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL3-92ZS3un"
 #define BLYNK_TEMPLATE_NAME "Air quality monitor"
-#define BLYNK_AUTH_TOKEN "KcMrCujwXaoXfgLfd4E3K6zr28-o-OkY"
+#define BLYNK_AUTH_TOKEN "Enter your token"
 
 #define BLYNK_PRINT Serial
 
@@ -25,8 +25,8 @@ byte degree_symbol[8] = {
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "NAGA SAI";
-char pass[] = "brahmaiahd3@@";
+char ssid[] = "Enter Your Wifi user id";
+char pass[] = "Enter your wifi password";
 
 BlynkTimer timer;
 
